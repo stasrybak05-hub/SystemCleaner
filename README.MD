@@ -42,9 +42,9 @@ Lightweight: Optimized footprint (~70MB), no complex installations required.
 Легкість: Оптимізований розмір (~70 МБ), не потребує складної інсталяції.
 
 📥 Installation
-Download the latest version from the Releases page.
+Download the latest version from the Releases page. 
 
-Run SystemCleaner.exe.
+
 
 Enjoy a cleaner, faster system!
 
