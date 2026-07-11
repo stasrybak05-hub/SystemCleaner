@@ -35,6 +35,6 @@ Professional system optimization and cleaning tool for Windows.
 ---
 
 ### 📥 Installation
-1. Download the latest version from the [Releases]https://github.com/stasrybak05-hub/SystemCleaner.git page.
+1. Download the latest version from the [Releases]https://github.com/stasrybak05-hub/SystemCleaner/releases/tag/v1.0.0 page.
 2. Run `SystemCleaner.exe`.
 3. Enjoy a cleaner, faster system!
