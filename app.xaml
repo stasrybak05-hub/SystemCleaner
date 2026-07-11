@@ -1,0 +1,17 @@
+<Application x:Class="SystemCleaner.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+<ResourceDictionary.MergedDictionaries>
+    <!-- 1. СПОЧАТКУ КОЛЬОРИ (тема) -->
+    <ResourceDictionary Source="Themes/DarkTheme.xaml"/>
+    <!-- 2. ПОТІМ СТИЛІ (які використовують ці кольори) -->
+    <ResourceDictionary Source="Themes/SharedStyles.xaml"/>
+    <!-- 3. Локалізація -->
+    <ResourceDictionary Source="Localization/Strings.uk.xaml"/>
+</ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

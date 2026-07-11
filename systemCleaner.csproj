@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<ApplicationIcon>cleaning.ico</ApplicationIcon>
+    
+    <!-- Маніфест адміністратора та точка входу -->
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace>SystemCleaner</RootNamespace>
+    <AssemblyName>SystemCleaner</AssemblyName>
+    <StartupObject>SystemCleaner.App</StartupObject>
+    
+    <!-- Метадані програми -->
+    <AssemblyTitle>System Cleaner</AssemblyTitle>
+    <Product>System Cleaner Professional</Product>
+    <Company>System Cleaner Team</Company>
+    <Description>Professional Windows system cleaner</Description>
+    <Version>1.1.0</Version>
+    <FileVersion>1.1.0.0</FileVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <Copyright>Copyright © 2026</Copyright>
+    
+    <!-- 🚀 Production оптимізації (БЕЗ Trimming!) -->
+    <Configuration>Release</Configuration>
+    <Optimize>true</Optimize>
+    <OptimizationPreference>Size</OptimizationPreference>
+    
+    <!-- Вимикаємо відладочні символи (.pdb) -->
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    
+    <!-- Single-file публікація -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    
+    <!-- Вбудовуємо всі нативні бібліотеки всередину .exe -->
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+    
+    <!-- ⚠️ TRIMMING ВИМКНЕНО (WPF не підтримує його) -->
+    <!-- PublishTrimmed НЕ вказуємо взагалі -->
+    
+    <!-- Стиснення single-file (зменшує розмір .exe на ~20-30%) -->
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    
+    <!-- Захист від декомпіляції (прибирає метадані) -->
+    <DebuggerSupport>false</DebuggerSupport>
+    <EventSourceSupport>false</EventSourceSupport>
+    <StackTraceSupport>true</StackTraceSupport>
+    <HttpActivityPropagationSupport>false</HttpActivityPropagationSupport>
+    <MetadataUpdaterSupport>false</MetadataUpdaterSupport>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LibreHardwareMonitorLib" Version="0.9.6" />
+    <PackageReference Include="System.Management" Version="10.0.2" />
+  </ItemGroup>
+
+  <!-- Виключаємо файли з publish -->
+  <ItemGroup>
+    <Content Remove="**\*.md" />
+    <Content Remove="**\.gitignore" />
+    <Content Remove="**\*.txt" />
+  </ItemGroup>
+
+</Project>
