@@ -42,7 +42,7 @@ Lightweight: Optimized footprint (~70MB), no complex installations required.
 Легкість: Оптимізований розмір (~70 МБ), не потребує складної інсталяції.
 
 📥 Installation
-Download the latest version from the Releases page.  https://github.com/stasrybak05-hub/SystemCleaner/releases/tag/v1.0.0
+Download the latest version from the Releases page.  https://github.com/stasrybak05-hub/SystemCleaner/releases/tag/v1.0.1
 
 
 
