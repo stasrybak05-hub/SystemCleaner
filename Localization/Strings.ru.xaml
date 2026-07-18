@@ -1,0 +1,105 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="AppTitle">System Cleaner — Профессиональный очиститель системы</system:String>
+    <system:String x:Key="AppSubtitle">Профессиональный очиститель Windows</system:String>
+
+    <system:String x:Key="Tab_Cleaning">🗑 Очистка</system:String>
+    <system:String x:Key="Tab_Additional">🔧 Дополнительно</system:String>
+    <system:String x:Key="Tab_Startup">⚡ Автозапуск</system:String>
+    <system:String x:Key="Tab_DiskAnalysis">💾 Анализ диска</system:String>
+    <system:String x:Key="Tab_About">ℹ О программе</system:String>
+
+    <system:String x:Key="FoundJunk">Найдено мусора</system:String>
+    <system:String x:Key="FilesCount">Количество файлов</system:String>
+    <system:String x:Key="Status">Статус</system:String>
+    <system:String x:Key="Ready">Готово</system:String>
+
+    <system:String x:Key="Btn_Scan">🔍 Анализ</system:String>
+    <system:String x:Key="Btn_Clean">✨ Очистить</system:String>
+    <system:String x:Key="Btn_Cancel">❌ Отмена</system:String>
+    <system:String x:Key="Btn_Refresh">🔄 Обновить список</system:String>
+
+    <system:String x:Key="DetailsHint">Детали (двойной клик для открытия)</system:String>
+    <system:String x:Key="Col_Path">Путь</system:String>
+    <system:String x:Key="Col_Size">Размер</system:String>
+    <system:String x:Key="Col_Type">Тип</system:String>
+    <system:String x:Key="Type_File">Файл</system:String>
+    <system:String x:Key="Type_Folder">Папка</system:String>
+
+    <system:String x:Key="Lbl_Theme">🎨 Тема:</system:String>
+    <system:String x:Key="Lbl_Language">🌐 Язык:</system:String>
+
+    <system:String x:Key="QuickActions">Быстрые действия очистки</system:String>
+    <system:String x:Key="ClearEventLogs">📜 Очистить журналы Windows</system:String>
+    <system:String x:Key="FlushDns">🌐 Очистить DNS-кэш</system:String>
+    <system:String x:Key="ClearRunHistory">▶ Очистить историю запуска</system:String>
+    <system:String x:Key="ClearClipboard">📋 Очистить историю буфера обмена</system:String>
+    <system:String x:Key="ClearSearchCache">🔎 Очистить кэш Windows Search</system:String>
+
+    <system:String x:Key="StartupHint">Нажмите «Отключить» чтобы убрать из автозапуска</system:String>
+    <system:String x:Key="Col_Name">Название</system:String>
+    <system:String x:Key="Col_Command">Команда</system:String>
+    <system:String x:Key="Col_Location">Расположение</system:String>
+    <system:String x:Key="Col_Action">Действие</system:String>
+    <system:String x:Key="Btn_Disable">Отключить</system:String>
+    <system:String x:Key="Btn_Enable">Включить</system:String>
+
+    <system:String x:Key="SelectDrives">Выберите диски для анализа:</system:String>
+    <system:String x:Key="FindLarge">🔎 Найти большие файлы (&gt;100 МБ)</system:String>
+    <system:String x:Key="FindDuplicates">🔁 Найти дубликаты</system:String>
+    <system:String x:Key="LargeFiles">Большие файлы:</system:String>
+    <system:String x:Key="Duplicates">Дубликаты:</system:String>
+    <system:String x:Key="Col_Copies">Копии</system:String>
+
+    <system:String x:Key="AboutVersion">Версия 1.1 · .NET 8 · WPF</system:String>
+    <system:String x:Key="AboutText">Профессиональный инструмент для очистки Windows 10/11 от временных файлов, кэшей браузеров, системного мусора и дубликатов.</system:String>
+    <system:String x:Key="AboutWarning">⚠ Внимание: программа требует прав администратора для полного функционала.</system:String>
+
+    <system:String x:Key="Status_Ready">Готов к работе</system:String>
+    <system:String x:Key="Status_Scanning">Сканирование системы...</system:String>
+    <system:String x:Key="Status_Cleaning">Очистка...</system:String>
+    <system:String x:Key="Status_Cancelled">Отменено</system:String>
+	
+	    <!-- Программы (Деинсталлятор) -->
+    <system:String x:Key="Tab_Programs">📦 Программы</system:String>
+    <system:String x:Key="Btn_LoadPrograms">🔄 Загрузить список</system:String>
+    <system:String x:Key="Btn_CalculateSizes">📏 Вычислить размеры</system:String>
+    <system:String x:Key="Btn_Uninstall">🗑 Удалить</system:String>
+    <system:String x:Key="Btn_ForceUninstall">💪 Принудительное удаление</system:String>
+    <system:String x:Key="SearchPlaceholder">🔍 Поиск программы...</system:String>
+    <system:String x:Key="Programs_Total">Всего программ:</system:String>
+    <system:String x:Key="Programs_TotalSize">Общий размер:</system:String>
+    <system:String x:Key="Col_ProgramName">Название</system:String>
+    <system:String x:Key="Col_Publisher">Издатель</system:String>
+    <system:String x:Key="Col_Version">Версия</system:String>
+    <system:String x:Key="Col_InstallDate">Установлено</system:String>
+    <system:String x:Key="Status_LoadingPrograms">Загрузка списка программ...</system:String>
+    <system:String x:Key="Status_CalculatingSizes">Вычисление размеров...</system:String>
+    <system:String x:Key="Status_SizesCalculated">Размеры вычислены</system:String>
+    <system:String x:Key="Status_ForceUninstalling">Принудительное удаление...</system:String>
+    <system:String x:Key="Programs_Loaded">Загружено программ</system:String>
+    <system:String x:Key="Programs_LoadFirst">Сначала загрузите список программ</system:String>
+    <system:String x:Key="Programs_SelectFirst">Выберите программу из списка</system:String>
+    <system:String x:Key="Programs_ConfirmUninstall">Удалить программу?</system:String>
+    <system:String x:Key="Programs_UninstallTitle">Удаление программы</system:String>
+    <system:String x:Key="Programs_NoUninstaller">У программы нет штатного деинсталлятора. Используйте принудительное удаление.</system:String>
+    <system:String x:Key="Programs_UninstallStarted">Запущен штатный деинсталлятор</system:String>
+    <system:String x:Key="Programs_UninstallFailed">Не удалось запустить деинсталлятор</system:String>
+    <system:String x:Key="Programs_ForceConfirm">Выполнить принудительное удаление?</system:String>
+    <system:String x:Key="Programs_ForceTitle">Принудительное удаление</system:String>
+    <system:String x:Key="Programs_ForceWarning">Будет удалено: программа, папка установки и записи в реестре.</system:String>
+    <system:String x:Key="Programs_ForceComplete">принудительно удалено</system:String>
+
+    <!-- Мониторинг системы -->
+    <system:String x:Key="Tab_Monitor">📊 Мониторинг</system:String>
+    <system:String x:Key="Monitor_Title">Системный дашборд</system:String>
+    <system:String x:Key="Btn_StartMonitor">▶ Запустить</system:String>
+    <system:String x:Key="Btn_StopMonitor">⏸ Остановить</system:String>
+    <system:String x:Key="Monitor_Usage">Загрузка:</system:String>
+    <system:String x:Key="Monitor_Temp">Температура:</system:String>
+    <system:String x:Key="Monitor_Running">Мониторинг активен</system:String>
+    <system:String x:Key="Monitor_Stopped">Мониторинг остановлен</system:String>
+
+</ResourceDictionary>

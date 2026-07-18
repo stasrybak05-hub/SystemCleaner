@@ -1,0 +1,21 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FF1E1E2E"/>
+    <SolidColorBrush x:Key="PanelBackgroundBrush" Color="#FF2A2A3E"/>
+    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#FF353550"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="#FF7C5CFF"/>
+    <SolidColorBrush x:Key="DangerBrush" Color="#FFFF5577"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="#FF55CC88"/>
+    <SolidColorBrush x:Key="TextBrush" Color="#FFE8E8F0"/>
+    <SolidColorBrush x:Key="SubTextBrush" Color="#FF9999BB"/>
+    <SolidColorBrush x:Key="BorderBrush" Color="#FF40405A"/>
+    
+    <SolidColorBrush x:Key="ComboBoxBackgroundBrush" Color="#FF353550"/>
+    <SolidColorBrush x:Key="ComboBoxForegroundBrush" Color="#FFE8E8F0"/>
+    <SolidColorBrush x:Key="ComboBoxBorderBrush" Color="#FF40405A"/>
+    <SolidColorBrush x:Key="ComboBoxItemHoverBrush" Color="#FF454570"/>
+    <SolidColorBrush x:Key="ComboBoxItemSelectedBrush" Color="#FF7C5CFF"/>
+    <SolidColorBrush x:Key="ComboBoxArrowBrush" Color="#FFE8E8F0"/>
+
+</ResourceDictionary>

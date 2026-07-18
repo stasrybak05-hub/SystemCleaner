@@ -1,0 +1,115 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="AppTitle">System Cleaner — Професійний очищувач системи</system:String>
+    <system:String x:Key="AppSubtitle">Професійний очищувач Windows</system:String>
+
+    <!-- Вкладки -->
+    <system:String x:Key="Tab_Cleaning">🗑 Очищення</system:String>
+    <system:String x:Key="Tab_Additional">🔧 Додаткове очищення</system:String>
+    <system:String x:Key="Tab_Startup">⚡ Автозапуск</system:String>
+    <system:String x:Key="Tab_DiskAnalysis">💾 Аналіз диска</system:String>
+    <system:String x:Key="Tab_About">ℹ Про програму</system:String>
+
+    <!-- Статистика -->
+    <system:String x:Key="FoundJunk">Знайдено сміття</system:String>
+    <system:String x:Key="FilesCount">Кількість файлів</system:String>
+    <system:String x:Key="Status">Статус</system:String>
+    <system:String x:Key="Ready">Готово</system:String>
+
+    <!-- Кнопки -->
+    <system:String x:Key="Btn_Scan">🔍 Аналіз</system:String>
+    <system:String x:Key="Btn_Clean">✨ Очистити</system:String>
+    <system:String x:Key="Btn_Cancel">❌ Скасувати</system:String>
+    <system:String x:Key="Btn_Refresh">🔄 Оновити список</system:String>
+
+    <!-- Деталі -->
+    <system:String x:Key="DetailsHint">Деталі (подвійний клік для відкриття)</system:String>
+    <system:String x:Key="Col_Path">Шлях</system:String>
+    <system:String x:Key="Col_Size">Розмір</system:String>
+    <system:String x:Key="Col_Type">Тип</system:String>
+    <system:String x:Key="Type_File">Файл</system:String>
+    <system:String x:Key="Type_Folder">Папка</system:String>
+
+    <!-- Мова та тема -->
+    <system:String x:Key="Lbl_Theme">🎨 Тема:</system:String>
+    <system:String x:Key="Lbl_Language">🌐 Мова:</system:String>
+
+    <!-- Додаткове очищення -->
+    <system:String x:Key="QuickActions">Швидкі дії очищення</system:String>
+    <system:String x:Key="ClearEventLogs">📜 Очистити журнали Windows</system:String>
+    <system:String x:Key="FlushDns">🌐 Очистити DNS-кеш</system:String>
+    <system:String x:Key="ClearRunHistory">▶ Очистити історію запуску</system:String>
+    <system:String x:Key="ClearClipboard">📋 Очистити історію буфера обміну</system:String>
+    <system:String x:Key="ClearSearchCache">🔎 Очистити кеш Windows Search</system:String>
+
+    <!-- Автозапуск -->
+    <system:String x:Key="StartupHint">Натисніть «Вимкнути» щоб прибрати з автозапуску</system:String>
+    <system:String x:Key="Col_Name">Назва</system:String>
+    <system:String x:Key="Col_Command">Команда</system:String>
+    <system:String x:Key="Col_Location">Розташування</system:String>
+    <system:String x:Key="Col_Action">Дія</system:String>
+    <system:String x:Key="Btn_Disable">Вимкнути</system:String>
+    <system:String x:Key="Btn_Enable">Увімкнути</system:String>
+
+    <!-- Аналіз диска -->
+    <system:String x:Key="SelectDrives">Оберіть диски для аналізу:</system:String>
+    <system:String x:Key="FindLarge">🔎 Знайти великі файли (&gt;100 МБ)</system:String>
+    <system:String x:Key="FindDuplicates">🔁 Знайти дублікати</system:String>
+    <system:String x:Key="LargeFiles">Великі файли:</system:String>
+    <system:String x:Key="Duplicates">Дублікати:</system:String>
+    <system:String x:Key="Col_Copies">Копії</system:String>
+
+    <!-- Про програму -->
+    <system:String x:Key="AboutVersion">Версія 1.1 · .NET 8 · WPF</system:String>
+    <system:String x:Key="AboutText">Професійний інструмент для очищення Windows 10/11 від тимчасових файлів, кешів браузерів, сміття системи та дублікатів.</system:String>
+    <system:String x:Key="AboutWarning">⚠ Увага: програма потребує прав адміністратора для повного функціоналу.</system:String>
+
+    <!-- Статуси -->
+    <system:String x:Key="Status_Ready">Готово до роботи</system:String>
+    <system:String x:Key="Status_Scanning">Сканування системи...</system:String>
+    <system:String x:Key="Status_Cleaning">Очищення...</system:String>
+    <system:String x:Key="Status_Cancelled">Скасовано</system:String>
+	
+	    <!-- Програми (Деінсталятор) -->
+    <system:String x:Key="Tab_Programs">📦 Програми</system:String>
+    <system:String x:Key="Btn_LoadPrograms">🔄 Завантажити список</system:String>
+    <system:String x:Key="Btn_CalculateSizes">📏 Обчислити розміри</system:String>
+    <system:String x:Key="Btn_Uninstall">🗑 Видалити</system:String>
+    <system:String x:Key="Btn_ForceUninstall">💪 Примусове видалення</system:String>
+    <system:String x:Key="SearchPlaceholder">🔍 Пошук програми...</system:String>
+    <system:String x:Key="Programs_Total">Всього програм:</system:String>
+    <system:String x:Key="Programs_TotalSize">Загальний розмір:</system:String>
+    <system:String x:Key="Col_ProgramName">Назва</system:String>
+    <system:String x:Key="Col_Publisher">Видавець</system:String>
+    <system:String x:Key="Col_Version">Версія</system:String>
+    <system:String x:Key="Col_InstallDate">Встановлено</system:String>
+    <system:String x:Key="Status_LoadingPrograms">Завантаження списку програм...</system:String>
+    <system:String x:Key="Status_CalculatingSizes">Обчислення розмірів...</system:String>
+    <system:String x:Key="Status_SizesCalculated">Розміри обчислено</system:String>
+    <system:String x:Key="Status_ForceUninstalling">Примусове видалення...</system:String>
+    <system:String x:Key="Programs_Loaded">Завантажено програм</system:String>
+    <system:String x:Key="Programs_LoadFirst">Спочатку завантажте список програм</system:String>
+    <system:String x:Key="Programs_SelectFirst">Виберіть програму зі списку</system:String>
+    <system:String x:Key="Programs_ConfirmUninstall">Видалити програму?</system:String>
+    <system:String x:Key="Programs_UninstallTitle">Видалення програми</system:String>
+    <system:String x:Key="Programs_NoUninstaller">У програми немає штатного деінсталятора. Скористайтесь примусовим видаленням.</system:String>
+    <system:String x:Key="Programs_UninstallStarted">Запущено штатний деінсталятор</system:String>
+    <system:String x:Key="Programs_UninstallFailed">Не вдалося запустити деінсталятор</system:String>
+    <system:String x:Key="Programs_ForceConfirm">Виконати примусове видалення?</system:String>
+    <system:String x:Key="Programs_ForceTitle">Примусове видалення</system:String>
+    <system:String x:Key="Programs_ForceWarning">Буде видалено: програму, папку встановлення та записи в реєстрі.</system:String>
+    <system:String x:Key="Programs_ForceComplete">примусово видалено</system:String>
+
+    <!-- Моніторинг системи -->
+    <system:String x:Key="Tab_Monitor">📊 Моніторинг</system:String>
+    <system:String x:Key="Monitor_Title">Системний дашборд</system:String>
+    <system:String x:Key="Btn_StartMonitor">▶ Запустити</system:String>
+    <system:String x:Key="Btn_StopMonitor">⏸ Зупинити</system:String>
+    <system:String x:Key="Monitor_Usage">Завантаження:</system:String>
+    <system:String x:Key="Monitor_Temp">Температура:</system:String>
+    <system:String x:Key="Monitor_Running">Моніторинг активний</system:String>
+    <system:String x:Key="Monitor_Stopped">Моніторинг зупинено</system:String>
+
+</ResourceDictionary>
